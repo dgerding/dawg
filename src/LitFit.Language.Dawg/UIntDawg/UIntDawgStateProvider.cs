@@ -1,4 +1,4 @@
-namespace vtortola
+namespace LitFit.Language.Dawg
 {
     internal sealed class UIntDawgStateProvider : IDawgStateProvider
     {

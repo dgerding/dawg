@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace vtortola
+namespace LitFit.Language.Dawg
 {
     using LongestListsPerHash = Dictionary<(long,long), (IList<TrieNode>, int)>;
-    internal sealed partial class DawgBuilder
+    public sealed partial class DawgBuilder
     {
-        readonly IDawgStateProvider _provider;
+        public readonly IDawgStateProvider _provider;
         int _nodeIncremental;
         uint _nextNodeIndex = 1u;
         

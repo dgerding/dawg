@@ -1,6 +1,6 @@
 using System;
 
-namespace vtortola
+namespace LitFit.Language.Dawg
 {
     internal sealed class UIntDawgReader : IDawgReader
     {

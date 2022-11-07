@@ -1,8 +1,8 @@
 using System.IO;
 
-namespace vtortola
+namespace LitFit.Language.Dawg
 {
-    internal interface IDawgState
+    public interface IDawgState
     {
         int Length { get; }
         IDawgReader GetReader();

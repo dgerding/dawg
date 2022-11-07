@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 
-namespace vtortola
+namespace LitFit.Language.Dawg
 {
-    internal sealed class TrieNode : IEquatable<TrieNode>
+    public sealed class TrieNode : IEquatable<TrieNode>
     {
         public int Id;
         public char Value;

@@ -2,8 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using LitFit.Language.Dawg;
 
-namespace vtortola
+namespace LitFit.Language.Dawg
 {
     // https://docs.microsoft.com/en-us/dotnet/core/tools/global-tools-how-to-create
     public class Program

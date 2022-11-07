@@ -5,15 +5,13 @@ VisualStudioVersion = 17.4.33027.239
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{900EB59F-16FD-4079-A797-2106938E4FD6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests.DawgTests", "..\tests\UnitTests.DawgTests\UnitTests.DawgTests.csproj", "{72B0FE9E-EA09-4009-B661-46D6E0EA132C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LitFit.Language.Dawg", "LitFit.Language.Dawg\LitFit.Language.Dawg.csproj", "{D0950474-9B26-433E-BB6E-2BF4A8F1D4FF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vtortola.Dawg.Tool", "vtortola.Dawg.Tool\vtortola.Dawg.Tool.csproj", "{E00C25FB-EF75-4689-848C-74C1A4F15E1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LitFit.Language.Dawg.Tool", "LitFit.Language.Dawg.Tool\LitFit.Language.Dawg.Tool.csproj", "{1498A195-370D-44E8-8E59-84CAF47080D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LitFit.Language.Dawg", "LitFit.Language.Dawg\LitFit.Language.Dawg.csproj", "{D0950474-9B26-433E-BB6E-2BF4A8F1D4FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LitFit.Language.Dawg.Tests", "UnitTests.DawgTests\LitFit.Language.Dawg.Tests.csproj", "{BA7C7E4D-94D0-47B4-8FCC-DECBEE09F84F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LitFit.Language.Dawg.Tool", "LitFit.Language.Dawg.Tool\LitFit.Language.Dawg.Tool.csproj", "{1498A195-370D-44E8-8E59-84CAF47080D1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LitFit.Language.Dawg.Tests", "LitFit.Language.Dawg.Tests\LitFit.Language.Dawg.Tests.csproj", "{CF73F8CB-EC58-431E-BF25-F20894A712E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LitFit.Language.Dawg.WordListsTests", "LitFit.Language.Dawg.WordListsTests\LitFit.Language.Dawg.WordListsTests.csproj", "{FEFFB7A4-C42F-495D-8AD7-1DB6D0255EFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,14 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{72B0FE9E-EA09-4009-B661-46D6E0EA132C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{72B0FE9E-EA09-4009-B661-46D6E0EA132C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{72B0FE9E-EA09-4009-B661-46D6E0EA132C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{72B0FE9E-EA09-4009-B661-46D6E0EA132C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E00C25FB-EF75-4689-848C-74C1A4F15E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E00C25FB-EF75-4689-848C-74C1A4F15E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E00C25FB-EF75-4689-848C-74C1A4F15E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E00C25FB-EF75-4689-848C-74C1A4F15E1F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D0950474-9B26-433E-BB6E-2BF4A8F1D4FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D0950474-9B26-433E-BB6E-2BF4A8F1D4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0950474-9B26-433E-BB6E-2BF4A8F1D4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,17 +27,21 @@ Global
 		{1498A195-370D-44E8-8E59-84CAF47080D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1498A195-370D-44E8-8E59-84CAF47080D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1498A195-370D-44E8-8E59-84CAF47080D1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF73F8CB-EC58-431E-BF25-F20894A712E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF73F8CB-EC58-431E-BF25-F20894A712E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF73F8CB-EC58-431E-BF25-F20894A712E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF73F8CB-EC58-431E-BF25-F20894A712E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA7C7E4D-94D0-47B4-8FCC-DECBEE09F84F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA7C7E4D-94D0-47B4-8FCC-DECBEE09F84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA7C7E4D-94D0-47B4-8FCC-DECBEE09F84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA7C7E4D-94D0-47B4-8FCC-DECBEE09F84F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEFFB7A4-C42F-495D-8AD7-1DB6D0255EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFFB7A4-C42F-495D-8AD7-1DB6D0255EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFFB7A4-C42F-495D-8AD7-1DB6D0255EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFFB7A4-C42F-495D-8AD7-1DB6D0255EFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{72B0FE9E-EA09-4009-B661-46D6E0EA132C} = {900EB59F-16FD-4079-A797-2106938E4FD6}
-		{CF73F8CB-EC58-431E-BF25-F20894A712E0} = {900EB59F-16FD-4079-A797-2106938E4FD6}
+		{BA7C7E4D-94D0-47B4-8FCC-DECBEE09F84F} = {900EB59F-16FD-4079-A797-2106938E4FD6}
+		{FEFFB7A4-C42F-495D-8AD7-1DB6D0255EFC} = {900EB59F-16FD-4079-A797-2106938E4FD6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0C9EB7A1-EFFC-4A3D-A081-84F99F3EE3F9}

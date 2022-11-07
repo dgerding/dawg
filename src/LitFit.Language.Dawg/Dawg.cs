@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace vtortola
+namespace LitFit.Language.Dawg
 {
     public sealed partial class Dawg : IEnumerable<string>
     {

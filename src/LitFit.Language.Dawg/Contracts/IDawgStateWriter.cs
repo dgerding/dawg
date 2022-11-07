@@ -1,6 +1,6 @@
-namespace vtortola
+namespace LitFit.Language.Dawg
 {
-    internal interface IDawgStateWriter
+    public interface IDawgStateWriter
     {
         Dawg Create(char[] symbols);
         void MoveToNode(in uint index);

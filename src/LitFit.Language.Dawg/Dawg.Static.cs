@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace vtortola
+namespace LitFit.Language.Dawg
 {
     public sealed partial class Dawg
     {
         // This would allow to replace the way the DAWG is serialized
-        static readonly IDawgStateProvider _provider = new UIntDawgStateProvider();
+        public static readonly IDawgStateProvider _provider = new UIntDawgStateProvider();
         
         public static Dawg Create(IEnumerable<string> words)
             => CreateBuilder(words).Build();
         
-        internal static DawgBuilder CreateBuilder(IEnumerable<string> words)
+        public static DawgBuilder CreateBuilder(IEnumerable<string> words)
         {
             var dawg = new DawgBuilder(_provider);
             dawg.AddToTrie(words);

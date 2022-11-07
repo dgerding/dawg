@@ -1,8 +1,8 @@
 using System;
 
-namespace vtortola
+namespace LitFit.Language.Dawg
 {
-    internal sealed class UIntDawgStateWriter : IDawgStateWriter
+    public sealed class UIntDawgStateWriter : IDawgStateWriter
     {
         readonly uint[] _values;
         uint _current = 0;

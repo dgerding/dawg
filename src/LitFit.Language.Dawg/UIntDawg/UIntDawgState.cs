@@ -1,6 +1,6 @@
 using System.IO;
 
-namespace vtortola
+namespace LitFit.Language.Dawg
 {
     internal sealed class UIntDawgState : IDawgState
     {

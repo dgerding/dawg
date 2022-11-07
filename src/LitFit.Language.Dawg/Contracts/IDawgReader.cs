@@ -1,6 +1,6 @@
-namespace vtortola
+namespace LitFit.Language.Dawg
 {
-    internal interface IDawgReader
+    public interface IDawgReader
     {
         uint Current { get; }
         uint SymbolId { get; }

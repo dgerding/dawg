@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace vtortola
+namespace LitFit.Language.Dawg
 {
-    internal partial class DawgBuilder
+    public partial class DawgBuilder
     {
 #if(DEBUG)
         public override string ToString()
