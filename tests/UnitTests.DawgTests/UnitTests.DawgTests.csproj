@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <TargetFramework>net7.0</TargetFramework>
 
         <IsPackable>false</IsPackable>
     </PropertyGroup>
@@ -14,7 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\vtortola.Dawg\vtortola.Dawg.csproj" />
+      <ProjectReference Include="..\..\src\LitFit.Language.Dawg\LitFit.Language.Dawg.csproj" />
     </ItemGroup>
 
 </Project>

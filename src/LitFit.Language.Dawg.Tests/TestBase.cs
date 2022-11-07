@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using vtortola;
+using LitFit.Language.Dawg;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace UnitTests.DawgTests
+namespace LitFit.Language.Dawg.Tests
 {
     public class TestBase
     {

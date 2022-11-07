@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <TargetFramework>net7.0</TargetFramework>
     </PropertyGroup>
 
   <PropertyGroup>
@@ -17,11 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\vtortola.Dawg\vtortola.Dawg.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <PackageReference Include="DawgSharp" Version="1.3.0" />
+      <ProjectReference Include="..\..\src\LitFit.Language.Dawg\LitFit.Language.Dawg.csproj" />
     </ItemGroup>
     
 </Project>
